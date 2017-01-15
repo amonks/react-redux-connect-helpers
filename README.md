@@ -21,8 +21,6 @@ Compose your connectors at will and build the connected component of your dreams
 
 ### connectStateValue
 
-[src/connectStateValue.js:21-33](https://github.com/rongierlach/react-redux-connect-helpers/blob/dfde59c43e2f7bbb3a9e45088706e052c2423fef/src/connectStateValue.js#L21-L33 "Source code on GitHub")
-
 Returns a function that connects a value in state to a React component as a prop
 
 **Parameters**
@@ -49,8 +47,6 @@ Returns **[function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Ref
 
 ### connectValue
 
-[src/connectValue.js:15-16](https://github.com/rongierlach/react-redux-connect-helpers/blob/dfde59c43e2f7bbb3a9e45088706e052c2423fef/src/connectValue.js#L15-L16 "Source code on GitHub")
-
 Returns a function that connects a value to a React component as a prop
 
 **Parameters**
@@ -70,8 +66,6 @@ const TitleContainer = compose(
 Returns **[function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)** Connected component class
 
 ### createActionConnector
-
-[src/createActionConnector.js:14-20](https://github.com/rongierlach/react-redux-connect-helpers/blob/dfde59c43e2f7bbb3a9e45088706e052c2423fef/src/createActionConnector.js#L14-L20 "Source code on GitHub")
 
 A higher order function that returns a function to connect bound actions to React components as props
 
