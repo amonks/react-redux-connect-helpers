@@ -6,7 +6,7 @@
   "scripts": {
     "build": "babel src -d lib",
     "clean": "rimraf lib",
-    "docs": "documentation readme src/index.js --github --section=\"API Reference\" --sort-order=alpha",
+    "docs": "documentation readme src/index.js --section=\"API Reference\" --sort-order=alpha",
     "prepublish": "npm run clean && npm run build",
     "test": "mocha --compilers js:babel-register"
   },
